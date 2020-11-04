@@ -18,3 +18,14 @@ amount_due = number_of_tickets * TICKET_PRICE
 
 # Output of price to the screen
 print ("Total amount due is ${}.".format(amount_due))
+
+# Prompt user if they want to proceed. Y/N?
+should_proceed = input("Do you want to proceed?")
+# If they want to proceed 
+
+    # print out to the screen "SOLD!" to confirm purchase
+    # and then decrement the tickets remaining by the number of tickets purchased 
+
+# Otherwise...
+
+    # Thank them by name 
