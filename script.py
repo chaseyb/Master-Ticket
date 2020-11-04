@@ -1,8 +1,12 @@
-
-# Master ticket price 
+# Master ticket variables
+SERVICE_CHARGE = 2
 TICKET_PRICE = 10
-# Total number of tickets remaining 
 tickets_remaining = 100
+
+# Calculate price function 
+def calculate_price(number_of_tickets):
+    # Service charge constant and adds $2 charge to total amount due at checkout
+    return number_of_tickets * TICKET_PRICE
 
 # Run this code continuously until we run out of tickets
 while tickets_remaining >= 1: 
@@ -26,7 +30,7 @@ while tickets_remaining >= 1:
         print("Oh no, we ran into an issue. {}. Please try again".format(err))
     # Calculate the price (number of tickets multipled by the price) and assign it to a variable
     else: 
-        amount_due = number_of_tickets * TICKET_PRICE
+        amount_due = calculate_price(number_of_tickets)
 
         # Output of price to the screen
         print ("Total amount due is ${}.".format(amount_due))
