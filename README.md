@@ -15,3 +15,4 @@ a python command line application that allows users to purchase tickets for upco
 
 * As a User, I should have errors reported in a user friendly manner (Task 6)
 
+* As a owner, I should receive a service charge so that I can pay others to maintain the software. (Task 7)
