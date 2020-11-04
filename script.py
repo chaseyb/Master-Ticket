@@ -12,9 +12,9 @@ name = input("What is your name? ")
 
 # Prompt the user by name and ask how many tickets they would like 
 number_of_tickets = input("How many tickets would you like, {}? ".format(name))
-
+number_of_tickets = int(number_of_tickets)
 # Calculate the price (number of tickets multipled by the price) and assign it to a variable 
-price = (number_of_tickets * TICKET_PRICE)
+amount_due = number_of_tickets * TICKET_PRICE
 
 # Output of price to the screen
 print ("Each ticket costs {}.".format(price))
