@@ -6,7 +6,7 @@ tickets_remaining = 100
 # Calculate price function 
 def calculate_price(number_of_tickets):
     # Service charge constant and adds $2 charge to total amount due at checkout
-    return (number_of_tickets * TICKET_PRICE + SERVICE_CHARGE)
+    return (number_of_tickets * TICKET_PRICE) + SERVICE_CHARGE
 
 # Run this code continuously until we run out of tickets
 while tickets_remaining >= 1: 
