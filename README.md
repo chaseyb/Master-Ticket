@@ -10,3 +10,5 @@ a python command line application that allows users to purchase tickets for upco
 * As a User, I should be able to request a certain number of tickets and be told the total cost, so that I can determine if I want to purchase the tickets (Task 3)
 
 * As a User, I should be able to confirm my order, so that I do not accidentally purchase more tickets than intended (task 4)
+
+* As a User, I shouldn't be offered tickets if there aren't any available 
