@@ -12,3 +12,6 @@ a python command line application that allows users to purchase tickets for upco
 * As a User, I should be able to confirm my order, so that I do not accidentally purchase more tickets than intended (Task 4)
 
 * As a User, I shouldn't be offered tickets if there aren't any available (Task 5)
+
+* As a User, I should have errors reported in a user friendly manner (Task 6)
+
